@@ -1,0 +1,383 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>DMOZ - Search Results </TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<link rel="icon" type="image/ico" href="img/mozilla.ico">
+<link rel="stylesheet" type="text/css" href="/css/dmoz-main.css">
+<BASE target="_top">
+
+<style>
+h3 strong {margin:21px 0;}
+ol.site li {margin:21px 0;}
+.nav-label {margin:21px 0 0 16px; }
+.searchN .search-alt  {padding:12px 0;*padding:0 0 12px 0;}
+#bd-cross h4 {padding:0;}
+ol.site li .ref a {background:none; padding-right:0;}
+ol.site .ref li a {background:none; padding-right:0;}
+
+}
+</style>
+
+</HEAD>
+<body>
+<div id="omniture">
+<script type="text/javascript">
+function runOmni(){(function(){var F,t,n,v,p,q,u,o,i,f,D,d,k,c,b,x,g,E,s,z,C,m,r,a,l,B,e,w,A,y,j,h;F=location.protocol.toLowerCase();t=location.hostname.toLowerCase();n=location.port;v=location.pathname.toLowerCase();p=location.search.toLowerCase();q=document.title.toLowerCase();s_265.pfxID="odp";s_265.server=t;s_265.channel="us.dmozodp";s_265.charSet="UTF-8";s_265.linkInternalFilters="aol.com,javascript:,dmoz.org";u=t.split(".");o=(u.length>1)?u[u.length-2]+"."+u[u.length-1]:"";if((o==="dmoz.org")||(t+":"+n==="dmozqa-m01.ihost.aol.com:8081")||(t+":"+n==="10.146.172.49:9099")){s_265.prop12=F+"//"+t+v;i=(v.indexOf("/world/")>-1)?1:0;f=v.split("/");D=(i===1)?parseInt(f.length,10)-4:parseInt(f.length,10)-2;d=(f[f.length-1].length>0)?f[f.length-1].split(".")[0]:" - ";k=(f[f.length-1].length>0)?f[f.length-1]:" - ";c=(i===1)?f[3]:f[1];b=(i===1)?f[4]:f[2];if(i===0){x="english"}else{if((i===1)&&(D===-1)){x="world top"}else{if((i===1)&&(D>-1)){x=f[2]}}}s_265.prop16=x;j=(D>0)?"level-"+D:"level-0";switch(D){case -1:A=t+" - world top";y=A;h=A;break;case 0:if(d!==" - "){A="utilities";y="general info";h=t+" - "+d}else{A=t+" - top";y=A;h=A}break;case 1:A=c;y="top";h=(d!==" - ")?h=A+" - "+d:h="category main";break;case 2:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="subcategory main";break;default:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="level-"+D+" main";break}if(t==="search.dmoz.org"){A="utilities";y="search";j="level-0";h=d+" - home";g=((d==="search")&&(p.split("=")[0]==="?search"))?1:0;if(g===1){E=s_265.getQueryParam("search","",p);s_265.eVar11="sTerms:f|"+E;s_265.prop18=(s_265.getQueryParam("all").toLowerCase()!=="yes")?s_265.getQueryParam("cat").toLowerCase():"";s_265.prop18=s_265.prop18||"all";s=s_265.getQueryParam("t").toLowerCase();z=s_265.getQueryParam("morecat").toLowerCase();if(s==="c"||s==="s"||s==="b"){s_265.prop19=s}else{s_265.prop19=(z===1)?"c":"b"}C=(parseInt(s_265.getQueryParam("Kids"),10)===1)?"kids":"none";m=(parseInt(s_265.getQueryParam("Teens"),10)===1)?"teens":"none";r=(parseInt(s_265.getQueryParam("Mteens"),10)===1)?"mteens":"none";s_265.prop20=C+"|"+m+"|"+r;a=((s_265.prop19!=="c")&&(z.length===0)&&(s_265.getQueryParam("co").length===0))?((parseInt(s_265.getQueryParam("start")/20,10)+1)+""):(z.length===0)?((parseInt(s_265.getQueryParam("start")/25,10)+1)+""):((parseInt(s_265.getQueryParam("morecat")/25,10)+1)+"");s_265.prop21="page "+a;h="search results";l=(((a*1)===1)&&(z.length===0)&&(s_265.getQueryParam("start","",document.referrer).length===0))?1:0;if(l===1){B=(s.length>0)?"advanced search":((s.length===0)&&(s_265.getQueryParam("cat").length>0))?"branch search":"standard search";s_265.events="event1";s_265.eVar1=B}}e=1}if(e!==1){switch(c){case"help":A="utilities";y="help";j="level-0";h=(d!==" - ")?"dmoz help - "+d:"dmoz help - helpmain";e=1;break;case"profiles":A="utilities";y="profiles";j="level-0";h="dmoz - user profile";s_265.mmxtitle=h;s_265.mmxcustom="http://www.dmoz.org/profiles/user.html";e=1;break;case"become_an_editor":case"user-banners":case"awards":A="utilities";y="general info";j="level-0";h="dmoz - general info - "+q;e=1;break;case"guidelines":A="utilities";y="editors";j="level-0";h=(D>1)?"editors - "+c+" - "+b+" - "+q:"editors guidelines - "+q;e=1;break;case"newsletter":j="level-0";switch(D){case 1:y="newsletter article archive";h=y;break;case 2:h="newsletter "+y+" - "+q;break}e=1;break;case"erz":A="utilities";y="editors";j="level-0";h=(D>1)?"erz - "+b+" - "+q:"erz - top - "+q;e=1;break}}if(e!==1){if((t==="www.dmoz.org")&&(D===0)&&(d==="reinstate")){A="utilities";y="editors";h="editors - "+q;e=1}if(t==="report-abuse.dmoz.org"){A="utilities";y="report abuse";j="level-0";h=((D===0)&&(d==="faq"))?"dmoz report abuse system faq":"dmoz report abuse system";e=1}else{if(t==="rdf.dmoz.org"){A="utilities";y="rdf";j="level-0";if((D===0)&&(d===" - ")){h="rdf - main"}else{if((D===1)&&(d===" - ")){h="rdf - file index"}else{if((D===1)&&(d!==" - ")){h="rdf - "+d}}}e=1}}}if(e!==1){if((c==="cgi-bin")&&(t!=="search.dmoz.org")){A="utilities";j="level-0";switch(d){case"apply":case"forgot":y="editors";h=(d==="forgot")?"editors - password reminder form":(s_265.getQueryParam("submit").length===0)?"editors - application info":"editors - application";e=1;break;case"add":case"update":case"update2":case"update3":case"reinstate":y="editors";if(d==="add"){h="editors - submit a site instructions"}else{if(d==="update"){h="editors - update listing instructions"}else{if(d==="update2"){h="editors - update listing form"}else{if(d==="update3"){h="editors - update listing form received"}else{if(d==="reinstate"){h="editors - account reinstatement form received"}}}}}e=1;break;case"send":case"send2":y="editors";h=(d==="send")?"send editors feedback":"editors feedback received";e=1;break}}}if(e!==1){if((k==="desc.html")||(k==="faq.html")){w=(k==="desc.html")?"description":"faq";h=(D===1)?"branch category ":(D===2)?"branch subcategory ":"branch level-"+D+" ";h=h+w}}s_265.trackExternalLinks=false;s_265.mmxgo=true;s_265.prop1=A;s_265.prop2=y;s_265.prop17=j;s_265.pageName=h;s_265.t()}}())}var s_account="aoldmozodp,aolsvc";(function(){var b=document,a=b.createElement("script");a.type="text/javascript";a.src=(location.protocol==="https:"?"https://s":"http://o")+".aolcdn.com/omniunih.js";b.getElementsByTagName("head")[0].appendChild(a)}());
+</script>
+</div>
+<div id="doc" class="searchN">
+    <div id="hd" style="border-bottom:0;">
+    	<a id="logo" class="logoN" href="/" alt="dmoz logo" title="DMOZ"></a>
+        <div id="partnership">
+        	<img width="72" height="36" align="middle" alt="In Partnership with AOL" src="/img/public/aolpartner.png"/>
+        </div>
+    </div>
+    <div id="hd-bar">
+    	<div class="float-l">&nbsp;</div>
+        <div class="float-r">
+        	<a href="/">home</a> | <a href="/docs/en/unavailable.html">feedback</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="bd-cross">
+        <FORM class="center mb1em" >
+
+		
+		<h4>Search: <strong>home.online.no</strong></h4>
+		
+		
+
+        </form>
+        
+        	<h3>
+            	<strong>DMOZ Categories</strong> 
+	            <small>(221-5 of 100)</small>
+            </h3>
+            <ol class="dir" start=221>
+				
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/Familier_og_par/"><strong>World: Norsk: Samfunn: Folk: Personlige hjemmesider: Familier og par</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/Familier_og_par&all=no">11</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/"><strong>World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Kunst_og_kultur/Musikk/Stilarter/Danseband/Artister/"><strong>World: Norsk: Kunst og kultur: Musikk: Stilarter: Danseband: Artister</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Kunst_og_kultur/Musikk/Stilarter/Danseband/Artister&all=no">5</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Kunst_og_kultur/Musikk/Artister/"><strong>World: Norsk: Kunst og kultur: Musikk: Artister</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Kunst_og_kultur/Musikk/Artister&all=no">4</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/Regional/Europe/Norway/Society_and_Culture/Genealogy/"><strong>Regional: Europe: Norway: Society and Culture: Genealogy</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/Regional/Europe/Norway/Society_and_Culture/Genealogy&all=no">3</a>)
+	
+                </li>
+                
+            </ol>
+            
+        
+        <p class="mb1em"></p>
+        
+        	<h3 class="open-dir-sites">
+            	<strong>DMOZ Sites</strong> 
+                <small>(221-240 of 286)</small>
+            </h3>
+         
+			<ol class="site" start=221>
+				
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~dsaether/">S&#230;ther, Dagfinn : Dagfinns lyse sider, mens vi vokser</a> - Jakten p&#229; mysteriet, tro og livssyn, dikt, oppvekst, &#248;kologi og politikk.
+                    <div class="ref">-- http://home.online.no/~dsaether/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Folk/Personlige_hjemmesider/S/">World: Norsk: Samfunn: Folk: Personlige hjemmesider: S</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/S&all=no">3</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~ivajoha/nato/">Nei til nye NATO</a> - En kampanje mot NATOs nye strategiske konsept (&quot;out of area&quot;-aksjoner). Med nyheter og bakgrunnsinformasjon.
+                    <div class="ref">-- http://home.online.no/~ivajoha/nato/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Samfunnssp%C3%B8rsm%C3%A5l/Krig%2C_v%C3%A5pen_og_forsvar/">World: Norsk: Samfunn: Samfunnsspørsmål: Krig, våpen og forsvar</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Samfunnssp%C3%B8rsm%C3%A5l/Krig%2C_v%C3%A5pen_og_forsvar&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~ro-w/prosjekt/start.html">Atomv&#229;penets historie</a> - Prosjektoppgave laget av Vegeir, Mats og Arild.
+                    <div class="ref">-- http://home.online.no/~ro-w/prosjekt/start.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Samfunnssp%C3%B8rsm%C3%A5l/Krig%2C_v%C3%A5pen_og_forsvar/">World: Norsk: Samfunn: Samfunnsspørsmål: Krig, våpen og forsvar</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Samfunnssp%C3%B8rsm%C3%A5l/Krig%2C_v%C3%A5pen_og_forsvar&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~kskagest/">Slektside for Kjell Skagestad</a> - Hjemmeside med egne forfedre fra omr&#229;dene rundt Mandal, med enkelte avgreininger til bl.a. Vestfold, Gudbrandsdalen og Bergen.
+                    <div class="ref">-- http://home.online.no/~kskagest/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/">World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~baero/">&#216;ystein B&#230;r&#248; - slektsforskningssider</a> - Hjemmeside med forfedre, fotografier og lokalhistoriske lenker og lenker til andre slektsforskere.
+                    <div class="ref">-- http://home.online.no/~baero/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/">World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~solibakk/nor/">Avatar Meher Baba</a> - Utsagn og b&#248;ker av Avatar Meher Baba oversatt til norsk. Bilder, biografi, b&#248;nner og lenker.
+                    <div class="ref">-- http://home.online.no/~solibakk/nor/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Religion_og_livssyn/Hinduisme/">World: Norsk: Samfunn: Religion og livssyn: Hinduisme</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Religion_og_livssyn/Hinduisme&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~stthors/">Grorudalen HVU 02201</a> - Ett fritidstilbud for jenter og gutter i alderen 16-21 &#229;r bosatt i, og omkring Groruddalen. Med kontaktinformasjon og bestilling av s&#248;knadsskjema for innmelding.
+                    <div class="ref">-- http://home.online.no/~stthors/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Forsvar/Heimevernet/Ungdomsgrupper/">World: Norsk: Samfunn: Forsvar: Heimevernet: Ungdomsgrupper</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Forsvar/Heimevernet/Ungdomsgrupper&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~torhberl/VossFN/">Voss og Omland FN / NATO veteranforening</a> - Lokal forening av FN veteranenes Landsforbund.
+                    <div class="ref">-- http://home.online.no/~torhberl/VossFN/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Forsvar/Styrker_i_utlandet/Veteraner/Veteranforeninger/">World: Norsk: Samfunn: Forsvar: Styrker i utlandet: Veteraner: Veteranforeninger</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Forsvar/Styrker_i_utlandet/Veteraner/Veteranforeninger&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~ivajoha/folkevalgt/">Folkevalgtes e-postadresser og telefonnummere</a> - Informasjon om folkevalgte p&#229; Stortinget, i Regjeringen og i de st&#248;rste byene, samt fylkesordf&#248;rere og ordf&#248;rere.
+                    <div class="ref">-- http://home.online.no/~ivajoha/folkevalgt/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Politikk/">World: Norsk: Samfunn: Politikk</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Politikk&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~fndbred/f1944.htm">Flytedokken skal senkes</a> - Om den engelske dvergub&#229;ten X.24 som 11. september 1944 lyktes &#229; sprenge flytedokken ved BMV p&#229; Laksev&#229;g i Bergen.
+                    <div class="ref">-- http://home.online.no/~fndbred/f1944.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Historie/2._verdenskrig/Fortifikasjoner/">World: Norsk: Samfunn: Historie: 2. verdenskrig: Fortifikasjoner</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Historie/2._verdenskrig/Fortifikasjoner&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~thorgm/1Jar/">1. Jar speidergruppe</a> - Informasjon om gruppa og speiderhusene, terminliste, referat og gjestebok.
+                    <div class="ref">-- http://home.online.no/~thorgm/1Jar/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Ferie_og_fritid/Speiderbevegelsen/Norges_speiderforbund/Grupper/">World: Norsk: Ferie og fritid: Speiderbevegelsen: Norges speiderforbund: Grupper</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Ferie_og_fritid/Speiderbevegelsen/Norges_speiderforbund/Grupper&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~thorgm/1Lysaker/">1. Lysaker speidergruppe</a> - Informasjon om gruppa og speiderhusene, terminliste, referat og gjestebok.
+                    <div class="ref">-- http://home.online.no/~thorgm/1Lysaker/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Ferie_og_fritid/Speiderbevegelsen/Norges_speiderforbund/Grupper/">World: Norsk: Ferie og fritid: Speiderbevegelsen: Norges speiderforbund: Grupper</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Ferie_og_fritid/Speiderbevegelsen/Norges_speiderforbund/Grupper&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~dagejo/rrlag/">RR-laget Holmlia, Oslo</a> - Medlemsliste, fotoalbum, historiebok og terminliste.
+                    <div class="ref">-- http://home.online.no/~dagejo/rrlag/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Ferie_og_fritid/Speiderbevegelsen/Norges_KFUK-KFUM-speidere/">World: Norsk: Ferie og fritid: Speiderbevegelsen: Norges KFUK-KFUM-speidere</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Ferie_og_fritid/Speiderbevegelsen/Norges_KFUK-KFUM-speidere&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~a.aschim/speider.html">1. Ytre Enebakk KFUM speidergruppe</a> - Informasjon om flokken, troppen, RR-laget og speiderhytta og terminliste.
+                    <div class="ref">-- http://home.online.no/~a.aschim/speider.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Ferie_og_fritid/Speiderbevegelsen/Norges_KFUK-KFUM-speidere/Grupper/">World: Norsk: Ferie og fritid: Speiderbevegelsen: Norges KFUK-KFUM-speidere: Grupper</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Ferie_og_fritid/Speiderbevegelsen/Norges_KFUK-KFUM-speidere/Grupper&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~hpersett/1hinna/">1. Hinna KFUM speidergruppe</a> - Informasjon om patruljene, turoversikt, medlemsoversikt, chat og gjestebok.
+                    <div class="ref">-- http://home.online.no/~hpersett/1hinna/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Ferie_og_fritid/Speiderbevegelsen/Norges_KFUK-KFUM-speidere/Grupper/">World: Norsk: Ferie og fritid: Speiderbevegelsen: Norges KFUK-KFUM-speidere: Grupper</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Ferie_og_fritid/Speiderbevegelsen/Norges_KFUK-KFUM-speidere/Grupper&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~tosoti/index.htm">Hunden, menneskets beste venn</a> - Litt om innl&#230;ring, adferd, lederskap, konflikter, men ogs&#229; om agility, utstilling, bruks lydighet og kontakt trening.
+                    <div class="ref">-- http://home.online.no/~tosoti/index.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Ferie_og_fritid/Husdyr/Hunder/">World: Norsk: Ferie og fritid: Husdyr: Hunder</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Ferie_og_fritid/Husdyr/Hunder&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/%7ekar-osb/index.html">Marius og Maren</a> - Hjemmeside om to tibetanske spaniels, Marius og Maren.
+                    <div class="ref">-- http://home.online.no/%7ekar-osb/index.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Ferie_og_fritid/Husdyr/Hunder/Personlige_hjemmesider/">World: Norsk: Ferie og fritid: Husdyr: Hunder: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Ferie_og_fritid/Husdyr/Hunder/Personlige_hjemmesider&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~isaasta/">Lydighetsringen</a> - Ingar Saastad sin lydighetsside. Tips om innl&#230;ring av ulike lydighets momenter, trening av valp og unghund og hva du b&#248;r tenke p&#229; f&#248;r du henter valpen.
+                    <div class="ref">-- http://home.online.no/~isaasta/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Ferie_og_fritid/Husdyr/Hunder/Aktiviteter/">World: Norsk: Ferie og fritid: Husdyr: Hunder: Aktiviteter</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Ferie_og_fritid/Husdyr/Hunder/Aktiviteter&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~nilsgunk/">Kennel Golden Zero</a> - Oppdrett av golden og flat coated Retrievere. Bilder og informasjon om hundene.
+                    <div class="ref">-- http://home.online.no/~nilsgunk/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Ferie_og_fritid/Husdyr/Hunder/Raser/Apporterende_hunder/Golden_Retriever/Kennel/">World: Norsk: Ferie og fritid: Husdyr: Hunder: Raser: Apporterende hunder: Golden Retriever: Kennel</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Ferie_og_fritid/Husdyr/Hunder/Raser/Apporterende_hunder/Golden_Retriever/Kennel&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~maytrude/">Kennel Isbj&#248;rnhiet</a> - Oppdrett av engelsk cocker spaniel i hjemmemilj&#248;. Informasjon om pelsstell, trening og annet ang&#229;ende hundehold.
+                    <div class="ref">-- http://home.online.no/~maytrude/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Ferie_og_fritid/Husdyr/Hunder/Raser/Apporterende_hunder/Cocker_Spaniel/">World: Norsk: Ferie og fritid: Husdyr: Hunder: Raser: Apporterende hunder: Cocker Spaniel</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Ferie_og_fritid/Husdyr/Hunder/Raser/Apporterende_hunder/Cocker_Spaniel&all=no"></a>)	
+			  </div>	
+                </li>
+                
+            </ol>
+            
+            
+            <p align="center"><a class="nav-label" href="search?q=home.online.no&start=200&type=url&all=no&cat=">previous</a></p>
+            
+            
+	        <p align="center"><a class="nav-label" href="search?q=home.online.no&start=240&type=next&all=no&cat=">next</a></p>
+	        
+        
+		</div>
+		<div class="mb1em-form">
+			<form class="center mb1em" action="search" method="GET">
+				<input type="text" NAME="q" value="home.online.no">
+				<input type=submit value="New Search" class="btn">
+				<a href="search?type=advanced">Advanced Search</a>
+				<a href="/docs/en/searchguide.html">Help on Search</a>
+			</form>
+		</div>
+
+		<div class="dividerN">
+			<img style="height: 2px; float: left; width: 100%" src="http://o.aolcdn.com/os/dmoz/img/dividerN.gif" />
+		</div>
+
+        <div class="search-alt">
+			"<b>home.online.no</b>"&nbsp;search&nbsp;on:</span>
+				
+	            <a href="http://search.aol.com/aol/search?query=home.online.no">AOL</a> -
+<a href="http://www.ask.com/web?q=home.online.no">Ask</a> -
+<a href="https://www.bing.com/search?q=home.online.no">Bing</a> -
+<a href="https://duckduckgo.com/?q=home.online.no">DuckDuckGo</a> -
+<a href="https://gigablast.com/search?q=home.online.no">Gigablast</a> -
+<a href="https://www.google.com/search?q=home.online.no">Google</a> -
+<a href="https://www.ixquick.com/do/search/?q=home.online.no">ixquick</a> -
+<a href="https://search.yahoo.com/search?p=home.online.no">Yahoo</a> -
+<a href="https://www.yandex.com/yandsearch?text=home.online.no">Yandex</a> -
+<a href="http://new.yippy.com/search?query=home.online.no">Yippy</a>  				
+				
+
+
+        </div>
+
+		<div class="bottom-dividerN">
+			<img style="height: 2px; float: left; width: 100%" src="http://o.aolcdn.com/os/dmoz/img/dividerN.gif" />
+		</div>
+    </div>
+    <div id="ft">
+    	
+        
+            <span class="float-l">Copyright &copy; 1998-2015 AOL Inc.</span>
+        
+
+        <span class="float-r"><a href="/docs/en/termsofuse.html">Terms of Use</a></span>
+    </div>
+    <!--div id="ft-bar">
+    	Search database last updated on: Wed Jun 25 17:20:02 EDT 2008
+    </div-->
+</div>
+</BODY>
+</HTML>

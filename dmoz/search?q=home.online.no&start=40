@@ -1,0 +1,385 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>DMOZ - Search Results </TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<link rel="icon" type="image/ico" href="img/mozilla.ico">
+<link rel="stylesheet" type="text/css" href="/css/dmoz-main.css">
+<BASE target="_top">
+
+<style>
+h3 strong {margin:21px 0;}
+ol.site li {margin:21px 0;}
+.nav-label {margin:21px 0 0 16px; }
+.searchN .search-alt  {padding:12px 0;*padding:0 0 12px 0;}
+#bd-cross h4 {padding:0;}
+ol.site li .ref a {background:none; padding-right:0;}
+ol.site .ref li a {background:none; padding-right:0;}
+
+}
+</style>
+
+</HEAD>
+<body>
+<div id="omniture">
+<script type="text/javascript">
+function runOmni(){(function(){var F,t,n,v,p,q,u,o,i,f,D,d,k,c,b,x,g,E,s,z,C,m,r,a,l,B,e,w,A,y,j,h;F=location.protocol.toLowerCase();t=location.hostname.toLowerCase();n=location.port;v=location.pathname.toLowerCase();p=location.search.toLowerCase();q=document.title.toLowerCase();s_265.pfxID="odp";s_265.server=t;s_265.channel="us.dmozodp";s_265.charSet="UTF-8";s_265.linkInternalFilters="aol.com,javascript:,dmoz.org";u=t.split(".");o=(u.length>1)?u[u.length-2]+"."+u[u.length-1]:"";if((o==="dmoz.org")||(t+":"+n==="dmozqa-m01.ihost.aol.com:8081")||(t+":"+n==="10.146.172.49:9099")){s_265.prop12=F+"//"+t+v;i=(v.indexOf("/world/")>-1)?1:0;f=v.split("/");D=(i===1)?parseInt(f.length,10)-4:parseInt(f.length,10)-2;d=(f[f.length-1].length>0)?f[f.length-1].split(".")[0]:" - ";k=(f[f.length-1].length>0)?f[f.length-1]:" - ";c=(i===1)?f[3]:f[1];b=(i===1)?f[4]:f[2];if(i===0){x="english"}else{if((i===1)&&(D===-1)){x="world top"}else{if((i===1)&&(D>-1)){x=f[2]}}}s_265.prop16=x;j=(D>0)?"level-"+D:"level-0";switch(D){case -1:A=t+" - world top";y=A;h=A;break;case 0:if(d!==" - "){A="utilities";y="general info";h=t+" - "+d}else{A=t+" - top";y=A;h=A}break;case 1:A=c;y="top";h=(d!==" - ")?h=A+" - "+d:h="category main";break;case 2:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="subcategory main";break;default:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="level-"+D+" main";break}if(t==="search.dmoz.org"){A="utilities";y="search";j="level-0";h=d+" - home";g=((d==="search")&&(p.split("=")[0]==="?search"))?1:0;if(g===1){E=s_265.getQueryParam("search","",p);s_265.eVar11="sTerms:f|"+E;s_265.prop18=(s_265.getQueryParam("all").toLowerCase()!=="yes")?s_265.getQueryParam("cat").toLowerCase():"";s_265.prop18=s_265.prop18||"all";s=s_265.getQueryParam("t").toLowerCase();z=s_265.getQueryParam("morecat").toLowerCase();if(s==="c"||s==="s"||s==="b"){s_265.prop19=s}else{s_265.prop19=(z===1)?"c":"b"}C=(parseInt(s_265.getQueryParam("Kids"),10)===1)?"kids":"none";m=(parseInt(s_265.getQueryParam("Teens"),10)===1)?"teens":"none";r=(parseInt(s_265.getQueryParam("Mteens"),10)===1)?"mteens":"none";s_265.prop20=C+"|"+m+"|"+r;a=((s_265.prop19!=="c")&&(z.length===0)&&(s_265.getQueryParam("co").length===0))?((parseInt(s_265.getQueryParam("start")/20,10)+1)+""):(z.length===0)?((parseInt(s_265.getQueryParam("start")/25,10)+1)+""):((parseInt(s_265.getQueryParam("morecat")/25,10)+1)+"");s_265.prop21="page "+a;h="search results";l=(((a*1)===1)&&(z.length===0)&&(s_265.getQueryParam("start","",document.referrer).length===0))?1:0;if(l===1){B=(s.length>0)?"advanced search":((s.length===0)&&(s_265.getQueryParam("cat").length>0))?"branch search":"standard search";s_265.events="event1";s_265.eVar1=B}}e=1}if(e!==1){switch(c){case"help":A="utilities";y="help";j="level-0";h=(d!==" - ")?"dmoz help - "+d:"dmoz help - helpmain";e=1;break;case"profiles":A="utilities";y="profiles";j="level-0";h="dmoz - user profile";s_265.mmxtitle=h;s_265.mmxcustom="http://www.dmoz.org/profiles/user.html";e=1;break;case"become_an_editor":case"user-banners":case"awards":A="utilities";y="general info";j="level-0";h="dmoz - general info - "+q;e=1;break;case"guidelines":A="utilities";y="editors";j="level-0";h=(D>1)?"editors - "+c+" - "+b+" - "+q:"editors guidelines - "+q;e=1;break;case"newsletter":j="level-0";switch(D){case 1:y="newsletter article archive";h=y;break;case 2:h="newsletter "+y+" - "+q;break}e=1;break;case"erz":A="utilities";y="editors";j="level-0";h=(D>1)?"erz - "+b+" - "+q:"erz - top - "+q;e=1;break}}if(e!==1){if((t==="www.dmoz.org")&&(D===0)&&(d==="reinstate")){A="utilities";y="editors";h="editors - "+q;e=1}if(t==="report-abuse.dmoz.org"){A="utilities";y="report abuse";j="level-0";h=((D===0)&&(d==="faq"))?"dmoz report abuse system faq":"dmoz report abuse system";e=1}else{if(t==="rdf.dmoz.org"){A="utilities";y="rdf";j="level-0";if((D===0)&&(d===" - ")){h="rdf - main"}else{if((D===1)&&(d===" - ")){h="rdf - file index"}else{if((D===1)&&(d!==" - ")){h="rdf - "+d}}}e=1}}}if(e!==1){if((c==="cgi-bin")&&(t!=="search.dmoz.org")){A="utilities";j="level-0";switch(d){case"apply":case"forgot":y="editors";h=(d==="forgot")?"editors - password reminder form":(s_265.getQueryParam("submit").length===0)?"editors - application info":"editors - application";e=1;break;case"add":case"update":case"update2":case"update3":case"reinstate":y="editors";if(d==="add"){h="editors - submit a site instructions"}else{if(d==="update"){h="editors - update listing instructions"}else{if(d==="update2"){h="editors - update listing form"}else{if(d==="update3"){h="editors - update listing form received"}else{if(d==="reinstate"){h="editors - account reinstatement form received"}}}}}e=1;break;case"send":case"send2":y="editors";h=(d==="send")?"send editors feedback":"editors feedback received";e=1;break}}}if(e!==1){if((k==="desc.html")||(k==="faq.html")){w=(k==="desc.html")?"description":"faq";h=(D===1)?"branch category ":(D===2)?"branch subcategory ":"branch level-"+D+" ";h=h+w}}s_265.trackExternalLinks=false;s_265.mmxgo=true;s_265.prop1=A;s_265.prop2=y;s_265.prop17=j;s_265.pageName=h;s_265.t()}}())}var s_account="aoldmozodp,aolsvc";(function(){var b=document,a=b.createElement("script");a.type="text/javascript";a.src=(location.protocol==="https:"?"https://s":"http://o")+".aolcdn.com/omniunih.js";b.getElementsByTagName("head")[0].appendChild(a)}());
+</script>
+</div>
+<div id="doc" class="searchN">
+    <div id="hd" style="border-bottom:0;">
+    	<a id="logo" class="logoN" href="/" alt="dmoz logo" title="DMOZ"></a>
+        <div id="partnership">
+        	<img width="72" height="36" align="middle" alt="In Partnership with AOL" src="/img/public/aolpartner.png"/>
+        </div>
+    </div>
+    <div id="hd-bar">
+    	<div class="float-l">&nbsp;</div>
+        <div class="float-r">
+        	<a href="/">home</a> | <a href="/docs/en/unavailable.html">feedback</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="bd-cross">
+        <FORM class="center mb1em" >
+
+		
+		<h4>Search: <strong>home.online.no</strong></h4>
+		
+		
+
+        </form>
+        
+        	<h3>
+            	<strong>DMOZ Categories</strong> 
+	            <small>(41-5 of 100)</small>
+            </h3>
+            <ol class="dir" start=41>
+				
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/Familier_og_par/"><strong>World: Norsk: Samfunn: Folk: Personlige hjemmesider: Familier og par</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/Familier_og_par&all=no">11</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/"><strong>World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Kunst_og_kultur/Musikk/Stilarter/Danseband/Artister/"><strong>World: Norsk: Kunst og kultur: Musikk: Stilarter: Danseband: Artister</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Kunst_og_kultur/Musikk/Stilarter/Danseband/Artister&all=no">5</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Kunst_og_kultur/Musikk/Artister/"><strong>World: Norsk: Kunst og kultur: Musikk: Artister</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Kunst_og_kultur/Musikk/Artister&all=no">4</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/Regional/Europe/Norway/Society_and_Culture/Genealogy/"><strong>Regional: Europe: Norway: Society and Culture: Genealogy</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/Regional/Europe/Norway/Society_and_Culture/Genealogy&all=no">3</a>)
+	
+                </li>
+                
+            </ol>
+            
+            <p align="center"><a class="nav-label" href="search?q=home.online.no&start=40&type=more&all=no&cat=">more...</a></p>
+            
+        
+        <p class="mb1em"></p>
+        
+        	<h3 class="open-dir-sites">
+            	<strong>DMOZ Sites</strong> 
+                <small>(41-60 of 286)</small>
+            </h3>
+         
+			<ol class="site" start=41>
+				
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~ojmalm/">Ole J&#248;rgen Malms tegneserier</a> - Tegneserier p&#229; norsk og engelsk signert Ole J&#248;rgen Malm.
+                    <div class="ref">-- http://home.online.no/~ojmalm/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Kunst_og_kultur/Tegneserier/">World: Norsk: Kunst og kultur: Tegneserier</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Kunst_og_kultur/Tegneserier&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~gjon/bokhylla.htm">Den elektroniske bokhylla</a> - Ei samling nynorske e-tekstar; Ivar Aasen, Aasmund Olavsson Vinje og andre forfattarar.
+                    <div class="ref">-- http://home.online.no/~gjon/bokhylla.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Kunst_og_kultur/Litteratur/">World: Norsk: Kunst og kultur: Litteratur</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Kunst_og_kultur/Litteratur&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~tmoen/">Moen, Torbj&#248;rn</a> - Forfatterens egen hjemmeside.
+                    <div class="ref">-- http://home.online.no/~tmoen/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Kunst_og_kultur/Litteratur/Forfattere/M/">World: Norsk: Kunst og kultur: Litteratur: Forfattere: M</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Kunst_og_kultur/Litteratur/Forfattere/M&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~warnckew/writings/norwegian/nikken/">Mitt m&#248;te med Nikken</a> - En kritisk sammenfatning av informasjon om bedriften Nikken, og dens produkter.
+                    <div class="ref">-- http://home.online.no/~warnckew/writings/norwegian/nikken/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Helse/Alternativ_behandling/">World: Norsk: Helse: Alternativ behandling</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Helse/Alternativ_behandling&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~o-graf/akupunkt.htm">&#216;ystein Graf: Om akupunktur</a> - Inneholder stoff og artikler om akupunktur.
+                    <div class="ref">-- http://home.online.no/~o-graf/akupunkt.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Helse/Alternativ_behandling/Akupunktur/">World: Norsk: Helse: Alternativ behandling: Akupunktur</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Helse/Alternativ_behandling/Akupunktur&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~gjessin/">Skyttaputten</a> - Historie, dyrking, oppbevaring og bruk av urter.
+                    <div class="ref">-- http://home.online.no/~gjessin/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Helse/Alternativ_behandling/Urter/">World: Norsk: Helse: Alternativ behandling: Urter</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Helse/Alternativ_behandling/Urter&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~a-haugen/">Honndalstausene</a> - Sanggruppe med oversikt over cder og nylanseringer.
+                    <div class="ref">-- http://home.online.no/~a-haugen/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Regionalt/Europa/Norge/Sogn_og_Fjordane/Hornindal/">World: Norsk: Regionalt: Europa: Norge: Sogn og Fjordane: Hornindal</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Regionalt/Europa/Norge/Sogn_og_Fjordane/Hornindal&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~nilsgunk/">Kennel Golden Zero</a> - Kennel i Lakselv. Driver oppdrett av Golden og Flat Coated Retriever.
+                    <div class="ref">-- http://home.online.no/~nilsgunk/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Regionalt/Europa/Norge/Finnmark/Porsanger/">World: Norsk: Regionalt: Europa: Norge: Finnmark: Porsanger</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Regionalt/Europa/Norge/Finnmark/Porsanger&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~hvilen/Vise/Start.htm">Stavern visegruppe</a> - Repertoar, bilder, lydklipp og gjestebok.
+                    <div class="ref">-- http://home.online.no/~hvilen/Vise/Start.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Regionalt/Europa/Norge/Vestfold/Kultur_og_underholdning/">World: Norsk: Regionalt: Europa: Norge: Vestfold: Kultur og underholdning</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Regionalt/Europa/Norge/Vestfold/Kultur_og_underholdning&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~kjendal/">Krager&#248; genealogiside</a> - Inneholder forutenom egen slekt ogs&#229; kilder og kilderegister over Krager&#248;.
+                    <div class="ref">-- http://home.online.no/~kjendal/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Regionalt/Europa/Norge/Telemark/Krager%C3%B8/">World: Norsk: Regionalt: Europa: Norge: Telemark: Kragerø</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Regionalt/Europa/Norge/Telemark/Krager%C3%B8&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~thom-hal/">Thoms Judo-graderingside</a> - Animasjoner og illustrasjoner av forskjellige judo-teknikker.
+                    <div class="ref">-- http://home.online.no/~thom-hal/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Sport/Kampsport/Judo/">World: Norsk: Sport: Kampsport: Judo</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Sport/Kampsport/Judo&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~esonstel/">Skedsmo h&#229;ndballklubb J91</a> - Informasjon om laget, nyheter, fotoalbum, gjestebok og historikk.
+                    <div class="ref">-- http://home.online.no/~esonstel/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Sport/H%C3%A5ndball/Klubber/">World: Norsk: Sport: Håndball: Klubber</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Sport/H%C3%A5ndball/Klubber&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~fjeldt/">Tranmere Rovers Supporters Club - Norway</a> - Nyheter og medlemsinfo. Informasjon om Tranmere Rovers og Prenton Park.
+                    <div class="ref">-- http://home.online.no/~fjeldt/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Sport/Fotball/Klubber/Engelske/">World: Norsk: Sport: Fotball: Klubber: Engelske</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Sport/Fotball/Klubber/Engelske&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~palbernt/kil/">P&#229;l-Erik Berntsens sider om Kongsvinger IL Toppfotball!</a> - Med resultater, statistikk og diskusjonsforum.
+                    <div class="ref">-- http://home.online.no/~palbernt/kil/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Sport/Fotball/Klubber/Norske/">World: Norsk: Sport: Fotball: Klubber: Norske</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Sport/Fotball/Klubber/Norske&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~moestboe/VolleyTreneren/">VolleyTreneren</a> - Dette er norges st&#248;rste og mest kompakte samling av trenings&#248;velser for volleyball - fritt tilgjengelig.
+                    <div class="ref">-- http://home.online.no/~moestboe/VolleyTreneren/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Sport/Volleyball/">World: Norsk: Sport: Volleyball</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Sport/Volleyball&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~sim-bakk/bananas2001/">The Bananas</a> - Inlinehockeyklubb lokalisert i Moss. Spilleroversikt, klubbhistorie og gjestebok.
+                    <div class="ref">-- http://home.online.no/~sim-bakk/bananas2001/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Sport/Klubber/">World: Norsk: Sport: Klubber</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Sport/Klubber&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~ernkris/ski-o/">Norske Ski-O sider</a> - Gamle sider for ski-o-komiteen i NOF. Sidene oppdateres ikke lenger, men inneholder generell informasjon om skiorientering.
+                    <div class="ref">-- http://home.online.no/~ernkris/ski-o/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Sport/Orientering/">World: Norsk: Sport: Orientering</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Sport/Orientering&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~damun/ksol.html">Kolbotn &amp; Skimt OL</a> - Om laget, terminlister, informasjon om aktiviteter, treningsinformasjon og fotoalbum.
+                    <div class="ref">-- http://home.online.no/~damun/ksol.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Sport/Orientering/Klubber/Oslo_og_Akershus/">World: Norsk: Sport: Orientering: Klubber: Oslo og Akershus</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Sport/Orientering/Klubber/Oslo_og_Akershus&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~audkleiv/index.html">Melhus IL</a> - Nyheter, resultater, terminliste og kartoversikt.
+                    <div class="ref">-- http://home.online.no/~audkleiv/index.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Sport/Orientering/Klubber/S%C3%B8r-Tr%C3%B8ndelag/">World: Norsk: Sport: Orientering: Klubber: Sør-Trøndelag</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Sport/Orientering/Klubber/S%C3%B8r-Tr%C3%B8ndelag&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~rolf-at/">Odda IL - Orienteringsgruppa</a> - Informasjon om gruppa og om orientering generelt. Informasjon om l&#248;p og samlinger, og l&#248;psstatistikk.
+                    <div class="ref">-- http://home.online.no/~rolf-at/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Sport/Orientering/Klubber/Hordaland/">World: Norsk: Sport: Orientering: Klubber: Hordaland</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Sport/Orientering/Klubber/Hordaland&all=no"></a>)	
+			  </div>	
+                </li>
+                
+            </ol>
+            
+            
+            <p align="center"><a class="nav-label" href="search?q=home.online.no&start=20&type=url&all=no&cat=">previous</a></p>
+            
+            
+	        <p align="center"><a class="nav-label" href="search?q=home.online.no&start=60&type=next&all=no&cat=">next</a></p>
+	        
+        
+		</div>
+		<div class="mb1em-form">
+			<form class="center mb1em" action="search" method="GET">
+				<input type="text" NAME="q" value="home.online.no">
+				<input type=submit value="New Search" class="btn">
+				<a href="search?type=advanced">Advanced Search</a>
+				<a href="/docs/en/searchguide.html">Help on Search</a>
+			</form>
+		</div>
+
+		<div class="dividerN">
+			<img style="height: 2px; float: left; width: 100%" src="http://o.aolcdn.com/os/dmoz/img/dividerN.gif" />
+		</div>
+
+        <div class="search-alt">
+			"<b>home.online.no</b>"&nbsp;search&nbsp;on:</span>
+				
+	            <a href="http://search.aol.com/aol/search?query=home.online.no">AOL</a> -
+<a href="http://www.ask.com/web?q=home.online.no">Ask</a> -
+<a href="https://www.bing.com/search?q=home.online.no">Bing</a> -
+<a href="https://duckduckgo.com/?q=home.online.no">DuckDuckGo</a> -
+<a href="https://gigablast.com/search?q=home.online.no">Gigablast</a> -
+<a href="https://www.google.com/search?q=home.online.no">Google</a> -
+<a href="https://www.ixquick.com/do/search/?q=home.online.no">ixquick</a> -
+<a href="https://search.yahoo.com/search?p=home.online.no">Yahoo</a> -
+<a href="https://www.yandex.com/yandsearch?text=home.online.no">Yandex</a> -
+<a href="http://new.yippy.com/search?query=home.online.no">Yippy</a>  				
+				
+
+
+        </div>
+
+		<div class="bottom-dividerN">
+			<img style="height: 2px; float: left; width: 100%" src="http://o.aolcdn.com/os/dmoz/img/dividerN.gif" />
+		</div>
+    </div>
+    <div id="ft">
+    	
+        
+            <span class="float-l">Copyright &copy; 1998-2015 AOL Inc.</span>
+        
+
+        <span class="float-r"><a href="/docs/en/termsofuse.html">Terms of Use</a></span>
+    </div>
+    <!--div id="ft-bar">
+    	Search database last updated on: Wed Jun 25 17:20:02 EDT 2008
+    </div-->
+</div>
+</BODY>
+</HTML>

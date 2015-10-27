@@ -1,0 +1,383 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>DMOZ - Search Results </TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<link rel="icon" type="image/ico" href="img/mozilla.ico">
+<link rel="stylesheet" type="text/css" href="/css/dmoz-main.css">
+<BASE target="_top">
+
+<style>
+h3 strong {margin:21px 0;}
+ol.site li {margin:21px 0;}
+.nav-label {margin:21px 0 0 16px; }
+.searchN .search-alt  {padding:12px 0;*padding:0 0 12px 0;}
+#bd-cross h4 {padding:0;}
+ol.site li .ref a {background:none; padding-right:0;}
+ol.site .ref li a {background:none; padding-right:0;}
+
+}
+</style>
+
+</HEAD>
+<body>
+<div id="omniture">
+<script type="text/javascript">
+function runOmni(){(function(){var F,t,n,v,p,q,u,o,i,f,D,d,k,c,b,x,g,E,s,z,C,m,r,a,l,B,e,w,A,y,j,h;F=location.protocol.toLowerCase();t=location.hostname.toLowerCase();n=location.port;v=location.pathname.toLowerCase();p=location.search.toLowerCase();q=document.title.toLowerCase();s_265.pfxID="odp";s_265.server=t;s_265.channel="us.dmozodp";s_265.charSet="UTF-8";s_265.linkInternalFilters="aol.com,javascript:,dmoz.org";u=t.split(".");o=(u.length>1)?u[u.length-2]+"."+u[u.length-1]:"";if((o==="dmoz.org")||(t+":"+n==="dmozqa-m01.ihost.aol.com:8081")||(t+":"+n==="10.146.172.49:9099")){s_265.prop12=F+"//"+t+v;i=(v.indexOf("/world/")>-1)?1:0;f=v.split("/");D=(i===1)?parseInt(f.length,10)-4:parseInt(f.length,10)-2;d=(f[f.length-1].length>0)?f[f.length-1].split(".")[0]:" - ";k=(f[f.length-1].length>0)?f[f.length-1]:" - ";c=(i===1)?f[3]:f[1];b=(i===1)?f[4]:f[2];if(i===0){x="english"}else{if((i===1)&&(D===-1)){x="world top"}else{if((i===1)&&(D>-1)){x=f[2]}}}s_265.prop16=x;j=(D>0)?"level-"+D:"level-0";switch(D){case -1:A=t+" - world top";y=A;h=A;break;case 0:if(d!==" - "){A="utilities";y="general info";h=t+" - "+d}else{A=t+" - top";y=A;h=A}break;case 1:A=c;y="top";h=(d!==" - ")?h=A+" - "+d:h="category main";break;case 2:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="subcategory main";break;default:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="level-"+D+" main";break}if(t==="search.dmoz.org"){A="utilities";y="search";j="level-0";h=d+" - home";g=((d==="search")&&(p.split("=")[0]==="?search"))?1:0;if(g===1){E=s_265.getQueryParam("search","",p);s_265.eVar11="sTerms:f|"+E;s_265.prop18=(s_265.getQueryParam("all").toLowerCase()!=="yes")?s_265.getQueryParam("cat").toLowerCase():"";s_265.prop18=s_265.prop18||"all";s=s_265.getQueryParam("t").toLowerCase();z=s_265.getQueryParam("morecat").toLowerCase();if(s==="c"||s==="s"||s==="b"){s_265.prop19=s}else{s_265.prop19=(z===1)?"c":"b"}C=(parseInt(s_265.getQueryParam("Kids"),10)===1)?"kids":"none";m=(parseInt(s_265.getQueryParam("Teens"),10)===1)?"teens":"none";r=(parseInt(s_265.getQueryParam("Mteens"),10)===1)?"mteens":"none";s_265.prop20=C+"|"+m+"|"+r;a=((s_265.prop19!=="c")&&(z.length===0)&&(s_265.getQueryParam("co").length===0))?((parseInt(s_265.getQueryParam("start")/20,10)+1)+""):(z.length===0)?((parseInt(s_265.getQueryParam("start")/25,10)+1)+""):((parseInt(s_265.getQueryParam("morecat")/25,10)+1)+"");s_265.prop21="page "+a;h="search results";l=(((a*1)===1)&&(z.length===0)&&(s_265.getQueryParam("start","",document.referrer).length===0))?1:0;if(l===1){B=(s.length>0)?"advanced search":((s.length===0)&&(s_265.getQueryParam("cat").length>0))?"branch search":"standard search";s_265.events="event1";s_265.eVar1=B}}e=1}if(e!==1){switch(c){case"help":A="utilities";y="help";j="level-0";h=(d!==" - ")?"dmoz help - "+d:"dmoz help - helpmain";e=1;break;case"profiles":A="utilities";y="profiles";j="level-0";h="dmoz - user profile";s_265.mmxtitle=h;s_265.mmxcustom="http://www.dmoz.org/profiles/user.html";e=1;break;case"become_an_editor":case"user-banners":case"awards":A="utilities";y="general info";j="level-0";h="dmoz - general info - "+q;e=1;break;case"guidelines":A="utilities";y="editors";j="level-0";h=(D>1)?"editors - "+c+" - "+b+" - "+q:"editors guidelines - "+q;e=1;break;case"newsletter":j="level-0";switch(D){case 1:y="newsletter article archive";h=y;break;case 2:h="newsletter "+y+" - "+q;break}e=1;break;case"erz":A="utilities";y="editors";j="level-0";h=(D>1)?"erz - "+b+" - "+q:"erz - top - "+q;e=1;break}}if(e!==1){if((t==="www.dmoz.org")&&(D===0)&&(d==="reinstate")){A="utilities";y="editors";h="editors - "+q;e=1}if(t==="report-abuse.dmoz.org"){A="utilities";y="report abuse";j="level-0";h=((D===0)&&(d==="faq"))?"dmoz report abuse system faq":"dmoz report abuse system";e=1}else{if(t==="rdf.dmoz.org"){A="utilities";y="rdf";j="level-0";if((D===0)&&(d===" - ")){h="rdf - main"}else{if((D===1)&&(d===" - ")){h="rdf - file index"}else{if((D===1)&&(d!==" - ")){h="rdf - "+d}}}e=1}}}if(e!==1){if((c==="cgi-bin")&&(t!=="search.dmoz.org")){A="utilities";j="level-0";switch(d){case"apply":case"forgot":y="editors";h=(d==="forgot")?"editors - password reminder form":(s_265.getQueryParam("submit").length===0)?"editors - application info":"editors - application";e=1;break;case"add":case"update":case"update2":case"update3":case"reinstate":y="editors";if(d==="add"){h="editors - submit a site instructions"}else{if(d==="update"){h="editors - update listing instructions"}else{if(d==="update2"){h="editors - update listing form"}else{if(d==="update3"){h="editors - update listing form received"}else{if(d==="reinstate"){h="editors - account reinstatement form received"}}}}}e=1;break;case"send":case"send2":y="editors";h=(d==="send")?"send editors feedback":"editors feedback received";e=1;break}}}if(e!==1){if((k==="desc.html")||(k==="faq.html")){w=(k==="desc.html")?"description":"faq";h=(D===1)?"branch category ":(D===2)?"branch subcategory ":"branch level-"+D+" ";h=h+w}}s_265.trackExternalLinks=false;s_265.mmxgo=true;s_265.prop1=A;s_265.prop2=y;s_265.prop17=j;s_265.pageName=h;s_265.t()}}())}var s_account="aoldmozodp,aolsvc";(function(){var b=document,a=b.createElement("script");a.type="text/javascript";a.src=(location.protocol==="https:"?"https://s":"http://o")+".aolcdn.com/omniunih.js";b.getElementsByTagName("head")[0].appendChild(a)}());
+</script>
+</div>
+<div id="doc" class="searchN">
+    <div id="hd" style="border-bottom:0;">
+    	<a id="logo" class="logoN" href="/" alt="dmoz logo" title="DMOZ"></a>
+        <div id="partnership">
+        	<img width="72" height="36" align="middle" alt="In Partnership with AOL" src="/img/public/aolpartner.png"/>
+        </div>
+    </div>
+    <div id="hd-bar">
+    	<div class="float-l">&nbsp;</div>
+        <div class="float-r">
+        	<a href="/">home</a> | <a href="/docs/en/unavailable.html">feedback</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="bd-cross">
+        <FORM class="center mb1em" >
+
+		
+		<h4>Search: <strong>home.online.no</strong></h4>
+		
+		
+
+        </form>
+        
+        	<h3>
+            	<strong>DMOZ Categories</strong> 
+	            <small>(141-5 of 100)</small>
+            </h3>
+            <ol class="dir" start=141>
+				
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/Familier_og_par/"><strong>World: Norsk: Samfunn: Folk: Personlige hjemmesider: Familier og par</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/Familier_og_par&all=no">11</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/"><strong>World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Kunst_og_kultur/Musikk/Stilarter/Danseband/Artister/"><strong>World: Norsk: Kunst og kultur: Musikk: Stilarter: Danseband: Artister</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Kunst_og_kultur/Musikk/Stilarter/Danseband/Artister&all=no">5</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Kunst_og_kultur/Musikk/Artister/"><strong>World: Norsk: Kunst og kultur: Musikk: Artister</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Kunst_og_kultur/Musikk/Artister&all=no">4</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/Regional/Europe/Norway/Society_and_Culture/Genealogy/"><strong>Regional: Europe: Norway: Society and Culture: Genealogy</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/Regional/Europe/Norway/Society_and_Culture/Genealogy&all=no">3</a>)
+	
+                </li>
+                
+            </ol>
+            
+        
+        <p class="mb1em"></p>
+        
+        	<h3 class="open-dir-sites">
+            	<strong>DMOZ Sites</strong> 
+                <small>(141-160 of 286)</small>
+            </h3>
+         
+			<ol class="site" start=141>
+				
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~janbruun/writings/">HWEB - Articles / Writings</a> - Book previews/reviews in English and Norwegian.
+                    <div class="ref">-- http://home.online.no/~janbruun/writings/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Arts/Literature/Reviews_and_Criticism/">Arts: Literature: Reviews and Criticism</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Arts/Literature/Reviews_and_Criticism&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~janbruun/">Hypertonia World Enterprises</a> - An indie cassette label covering all sorts of strange experimental stuff as well as poppy material. With articles, catalog and comics.
+                    <div class="ref">-- http://home.online.no/~janbruun/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Business/Arts_and_Entertainment/Music/Labels/Specialty/Experimental/H/">Business: Arts and Entertainment: Music: Labels: Specialty: Experimental: H</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Business/Arts_and_Entertainment/Music/Labels/Specialty/Experimental/H&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~colmar/hcm_eng.html">Cats and Heart Disease</a> - Information on hypertrophic cardiomyopathy, its symptoms and treatment.
+                    <div class="ref">-- http://home.online.no/~colmar/hcm_eng.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Health/Animal/Mammals/Cats/Conditions_and_Diseases/Feline_Cardiomyopathy/">Health: Animal: Mammals: Cats: Conditions and Diseases: Feline Cardiomyopathy</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Health/Animal/Mammals/Cats/Conditions_and_Diseases/Feline_Cardiomyopathy&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~temelhei/got_1.htm">Gotland and Trans-Scandinavian Cycle Tour</a> - This is the story about a cycle tour made by Kjartan (16) and mother Turid and father Terje (who has written this story).
+                    <div class="ref">-- http://home.online.no/~temelhei/got_1.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Sports/Cycling/Travel/Travelogues/Europe/Regions/Nordic_Countries/">Sports: Cycling: Travel: Travelogues: Europe: Regions: Nordic Countries</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Sports/Cycling/Travel/Travelogues/Europe/Regions/Nordic_Countries&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~leifel/lcmd/index.html">Larsen Commander</a> - GUI file manager and command processor that has a look and feel like the classic Norton Commander. Pure GUI but still has a built in command line and a scrollable console monitor. OS/2 shareware.
+                    <div class="ref">-- http://home.online.no/~leifel/lcmd/index.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Computers/Software/File_Management/File_Managers/OS-2/">Computers: Software: File Management: File Managers: OS-2</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Computers/Software/File_Management/File_Managers/OS-2&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~espensa/khexedit/index.html">KHexEdit</a> - KHexEdit is a versatile and customizable hex editor. It displays data in hexadecimal, octal, binary and text mode.
+                    <div class="ref">-- http://home.online.no/~espensa/khexedit/index.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Computers/Software/Operating_Systems/Graphic_Subsystems/Desktop_Environments/KDE/Utilities/File_Management/">Computers: Software: Operating Systems: Graphic Subsystems: Desktop Environments: KDE: Utilities: File Management</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Computers/Software/Operating_Systems/Graphic_Subsystems/Desktop_Environments/KDE/Utilities/File_Management&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~gjon/pinhole.htm">Pinhole Photography - History, Images, Cameras, Formulas</a> - Detailed overview of pinhole photography, with links to other pinhole resources and a bibliography of pinhole books.
+                    <div class="ref">-- http://home.online.no/~gjon/pinhole.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Arts/Photography/Techniques_and_Styles/Pinhole/">Arts: Photography: Techniques and Styles: Pinhole</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Arts/Photography/Techniques_and_Styles/Pinhole&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~bhol/">Elven Haven</a> - Fan site with image galleries, avatar icons, banners, wallpapers, film and book synopses, forum, and links.
+                    <div class="ref">-- http://home.online.no/~bhol/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Arts/Movies/Titles/L/Lord_of_the_Rings_Series/Fan_Pages/">Arts: Movies: Titles: L: Lord of the Rings Series: Fan Pages</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Arts/Movies/Titles/L/Lord_of_the_Rings_Series/Fan_Pages&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/%7ekhaaseth/">H&#229;seth, Kolbj&#248;rn</a> - Resume and portfolio of a Norwegian painter of landscapes, seascapes and fjords primarily in acrylic. [English and Norwegian]
+                    <div class="ref">-- http://home.online.no/%7ekhaaseth/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Arts/Visual_Arts/Painting/Painters/Realism/Contemporary_Realism/">Arts: Visual Arts: Painting: Painters: Realism: Contemporary Realism</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Arts/Visual_Arts/Painting/Painters/Realism/Contemporary_Realism&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~jdigrane/amd/norwomen/skram.htm">Stamps of Amalie Skram</a> - Facsimiles of stamps showing Skram&apos;s image and a brief biography of this Norwegian author.
+                    <div class="ref">-- http://home.online.no/~jdigrane/amd/norwomen/skram.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Arts/Literature/World_Literature/Norwegian/Skram%2C_Amalie/">Arts: Literature: World Literature: Norwegian: Skram, Amalie</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Arts/Literature/World_Literature/Norwegian/Skram%2C_Amalie&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~kcnyhus/">Vaya Con Dios, Ike! The Travis Fine Web Site</a> - Travis Fine&apos;s biographical data, photos, screen captures, articles, fan fiction, and message board.
+                    <div class="ref">-- http://home.online.no/~kcnyhus/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Arts/Television/Programs/Action_and_Adventure/Westerns/Young_Riders/">Arts: Television: Programs: Action and Adventure: Westerns: Young Riders</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Arts/Television/Programs/Action_and_Adventure/Westerns/Young_Riders&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~kgjetmun/">Norwegian Folk Music</a> - An introduction to Norwegian traditional music and instruments, preserved among small farmers and cotters, independent of influences from newer fashions in Europe.
+                    <div class="ref">-- http://home.online.no/~kgjetmun/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Arts/Music/Styles/F/Folk/By_Region/">Arts: Music: Styles: F: Folk: By Region</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Arts/Music/Styles/F/Folk/By_Region&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~anlun/">Andreas Lund: English as Another Language</a> - Provides resources, activities, projects, and research for teachers and learners.
+                    <div class="ref">-- http://home.online.no/~anlun/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Arts/Education/Language_Arts/English/English_as_a_Second_Language/Directories/">Arts: Education: Language Arts: English: English as a Second Language: Directories</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Arts/Education/Language_Arts/English/English_as_a_Second_Language/Directories&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~jaed/waylon.htm">Waylon Jennings Info Pages</a> - Norwegian fan site with discography, biography, and sources of information about the artist.
+                    <div class="ref">-- http://home.online.no/~jaed/waylon.htm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Arts/Music/Styles/C/Country/Bands_and_Artists/J/Jennings%2C_Waylon/">Arts: Music: Styles: C: Country: Bands and Artists: J: Jennings, Waylon</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Arts/Music/Styles/C/Country/Bands_and_Artists/J/Jennings%2C_Waylon&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~solf-d/oslo/osloligaen.html">Oslo-ligaen</a> - Local chapter of the Norwegian Diplomacy Association which organizes games in Oslo, Norway.
+                    <div class="ref">-- http://home.online.no/~solf-d/oslo/osloligaen.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Games/Board_Games/War_and_Politics/Diplomacy/Play_Groups/">Games: Board Games: War and Politics: Diplomacy: Play Groups</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Games/Board_Games/War_and_Politics/Diplomacy/Play_Groups&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~loran-c/">Lorsta B&#248; Norway</a> - Information on the navigation system Loran-C, the broadcast stystem Eurofix, and the Norwegian stations, including the one on Jan-Mayen.
+                    <div class="ref">-- http://home.online.no/~loran-c/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Regional/Europe/Svalbard_and_Jan_Mayen/Jan_Mayen/">Regional: Europe: Svalbard and Jan Mayen: Jan Mayen</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Regional/Europe/Svalbard_and_Jan_Mayen/Jan_Mayen&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~warnckew/gammon/">Morten Wang (Morty)</a> - Provides visitors with the rec.games.backgammon rollout archive, annotated matches, commented positions, the 10 Commandments of Backgammon, and links to other sites.
+                    <div class="ref">-- http://home.online.no/~warnckew/gammon/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Games/Board_Games/Abstract/Race_Games/Backgammon/Player_Pages/">Games: Board Games: Abstract: Race Games: Backgammon: Player Pages</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Games/Board_Games/Abstract/Race_Games/Backgammon/Player_Pages&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~warnckew/gammon/rgb.rollouts/">Rec.games.backgammon Rollout Archive</a> - A collection of links to positions discussed at rec.games.backgammon.
+                    <div class="ref">-- http://home.online.no/~warnckew/gammon/rgb.rollouts/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Games/Board_Games/Abstract/Race_Games/Backgammon/Rules_and_Theory/">Games: Board Games: Abstract: Race Games: Backgammon: Rules and Theory</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Games/Board_Games/Abstract/Race_Games/Backgammon/Rules_and_Theory&all=no">1</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~jfuruly/salmon/index.html">Jan Gunnar Furuly&apos;s Salmon Fishing Pages</a> - News from the Norwegian salmon fishing scene. Catch statistics from more than 400 salmon rivers. Virtual flybox and international salmon fly exchanges.
+                    <div class="ref">-- http://home.online.no/~jfuruly/salmon/index.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Regional/Europe/Norway/Recreation_and_Sports/Fishing/">Regional: Europe: Norway: Recreation and Sports: Fishing</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Regional/Europe/Norway/Recreation_and_Sports/Fishing&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~oharstad/naturbilde.html">Sceneries from the Setesdal valley in Norway</a> - Photo gallery and web-links for the Setesdal valley in Southern Norway.
+                    <div class="ref">-- http://home.online.no/~oharstad/naturbilde.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Regional/Europe/Norway/Travel_and_Tourism/Travel_Guides/">Regional: Europe: Norway: Travel and Tourism: Travel Guides</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/Regional/Europe/Norway/Travel_and_Tourism/Travel_Guides&all=no"></a>)	
+			  </div>	
+                </li>
+                
+            </ol>
+            
+            
+            <p align="center"><a class="nav-label" href="search?q=home.online.no&start=120&type=url&all=no&cat=">previous</a></p>
+            
+            
+	        <p align="center"><a class="nav-label" href="search?q=home.online.no&start=160&type=next&all=no&cat=">next</a></p>
+	        
+        
+		</div>
+		<div class="mb1em-form">
+			<form class="center mb1em" action="search" method="GET">
+				<input type="text" NAME="q" value="home.online.no">
+				<input type=submit value="New Search" class="btn">
+				<a href="search?type=advanced">Advanced Search</a>
+				<a href="/docs/en/searchguide.html">Help on Search</a>
+			</form>
+		</div>
+
+		<div class="dividerN">
+			<img style="height: 2px; float: left; width: 100%" src="http://o.aolcdn.com/os/dmoz/img/dividerN.gif" />
+		</div>
+
+        <div class="search-alt">
+			"<b>home.online.no</b>"&nbsp;search&nbsp;on:</span>
+				
+	            <a href="http://search.aol.com/aol/search?query=home.online.no">AOL</a> -
+<a href="http://www.ask.com/web?q=home.online.no">Ask</a> -
+<a href="https://www.bing.com/search?q=home.online.no">Bing</a> -
+<a href="https://duckduckgo.com/?q=home.online.no">DuckDuckGo</a> -
+<a href="https://gigablast.com/search?q=home.online.no">Gigablast</a> -
+<a href="https://www.google.com/search?q=home.online.no">Google</a> -
+<a href="https://www.ixquick.com/do/search/?q=home.online.no">ixquick</a> -
+<a href="https://search.yahoo.com/search?p=home.online.no">Yahoo</a> -
+<a href="https://www.yandex.com/yandsearch?text=home.online.no">Yandex</a> -
+<a href="http://new.yippy.com/search?query=home.online.no">Yippy</a>  				
+				
+
+
+        </div>
+
+		<div class="bottom-dividerN">
+			<img style="height: 2px; float: left; width: 100%" src="http://o.aolcdn.com/os/dmoz/img/dividerN.gif" />
+		</div>
+    </div>
+    <div id="ft">
+    	
+        
+            <span class="float-l">Copyright &copy; 1998-2015 AOL Inc.</span>
+        
+
+        <span class="float-r"><a href="/docs/en/termsofuse.html">Terms of Use</a></span>
+    </div>
+    <!--div id="ft-bar">
+    	Search database last updated on: Wed Jun 25 17:20:02 EDT 2008
+    </div-->
+</div>
+</BODY>
+</HTML>

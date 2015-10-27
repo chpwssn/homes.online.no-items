@@ -1,0 +1,385 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>DMOZ - Search Results </TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<link rel="icon" type="image/ico" href="img/mozilla.ico">
+<link rel="stylesheet" type="text/css" href="/css/dmoz-main.css">
+<BASE target="_top">
+
+<style>
+h3 strong {margin:21px 0;}
+ol.site li {margin:21px 0;}
+.nav-label {margin:21px 0 0 16px; }
+.searchN .search-alt  {padding:12px 0;*padding:0 0 12px 0;}
+#bd-cross h4 {padding:0;}
+ol.site li .ref a {background:none; padding-right:0;}
+ol.site .ref li a {background:none; padding-right:0;}
+
+}
+</style>
+
+</HEAD>
+<body>
+<div id="omniture">
+<script type="text/javascript">
+function runOmni(){(function(){var F,t,n,v,p,q,u,o,i,f,D,d,k,c,b,x,g,E,s,z,C,m,r,a,l,B,e,w,A,y,j,h;F=location.protocol.toLowerCase();t=location.hostname.toLowerCase();n=location.port;v=location.pathname.toLowerCase();p=location.search.toLowerCase();q=document.title.toLowerCase();s_265.pfxID="odp";s_265.server=t;s_265.channel="us.dmozodp";s_265.charSet="UTF-8";s_265.linkInternalFilters="aol.com,javascript:,dmoz.org";u=t.split(".");o=(u.length>1)?u[u.length-2]+"."+u[u.length-1]:"";if((o==="dmoz.org")||(t+":"+n==="dmozqa-m01.ihost.aol.com:8081")||(t+":"+n==="10.146.172.49:9099")){s_265.prop12=F+"//"+t+v;i=(v.indexOf("/world/")>-1)?1:0;f=v.split("/");D=(i===1)?parseInt(f.length,10)-4:parseInt(f.length,10)-2;d=(f[f.length-1].length>0)?f[f.length-1].split(".")[0]:" - ";k=(f[f.length-1].length>0)?f[f.length-1]:" - ";c=(i===1)?f[3]:f[1];b=(i===1)?f[4]:f[2];if(i===0){x="english"}else{if((i===1)&&(D===-1)){x="world top"}else{if((i===1)&&(D>-1)){x=f[2]}}}s_265.prop16=x;j=(D>0)?"level-"+D:"level-0";switch(D){case -1:A=t+" - world top";y=A;h=A;break;case 0:if(d!==" - "){A="utilities";y="general info";h=t+" - "+d}else{A=t+" - top";y=A;h=A}break;case 1:A=c;y="top";h=(d!==" - ")?h=A+" - "+d:h="category main";break;case 2:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="subcategory main";break;default:A=c;y=b;h=(d!==" - ")?h=A+" - "+y+" - "+d:h="level-"+D+" main";break}if(t==="search.dmoz.org"){A="utilities";y="search";j="level-0";h=d+" - home";g=((d==="search")&&(p.split("=")[0]==="?search"))?1:0;if(g===1){E=s_265.getQueryParam("search","",p);s_265.eVar11="sTerms:f|"+E;s_265.prop18=(s_265.getQueryParam("all").toLowerCase()!=="yes")?s_265.getQueryParam("cat").toLowerCase():"";s_265.prop18=s_265.prop18||"all";s=s_265.getQueryParam("t").toLowerCase();z=s_265.getQueryParam("morecat").toLowerCase();if(s==="c"||s==="s"||s==="b"){s_265.prop19=s}else{s_265.prop19=(z===1)?"c":"b"}C=(parseInt(s_265.getQueryParam("Kids"),10)===1)?"kids":"none";m=(parseInt(s_265.getQueryParam("Teens"),10)===1)?"teens":"none";r=(parseInt(s_265.getQueryParam("Mteens"),10)===1)?"mteens":"none";s_265.prop20=C+"|"+m+"|"+r;a=((s_265.prop19!=="c")&&(z.length===0)&&(s_265.getQueryParam("co").length===0))?((parseInt(s_265.getQueryParam("start")/20,10)+1)+""):(z.length===0)?((parseInt(s_265.getQueryParam("start")/25,10)+1)+""):((parseInt(s_265.getQueryParam("morecat")/25,10)+1)+"");s_265.prop21="page "+a;h="search results";l=(((a*1)===1)&&(z.length===0)&&(s_265.getQueryParam("start","",document.referrer).length===0))?1:0;if(l===1){B=(s.length>0)?"advanced search":((s.length===0)&&(s_265.getQueryParam("cat").length>0))?"branch search":"standard search";s_265.events="event1";s_265.eVar1=B}}e=1}if(e!==1){switch(c){case"help":A="utilities";y="help";j="level-0";h=(d!==" - ")?"dmoz help - "+d:"dmoz help - helpmain";e=1;break;case"profiles":A="utilities";y="profiles";j="level-0";h="dmoz - user profile";s_265.mmxtitle=h;s_265.mmxcustom="http://www.dmoz.org/profiles/user.html";e=1;break;case"become_an_editor":case"user-banners":case"awards":A="utilities";y="general info";j="level-0";h="dmoz - general info - "+q;e=1;break;case"guidelines":A="utilities";y="editors";j="level-0";h=(D>1)?"editors - "+c+" - "+b+" - "+q:"editors guidelines - "+q;e=1;break;case"newsletter":j="level-0";switch(D){case 1:y="newsletter article archive";h=y;break;case 2:h="newsletter "+y+" - "+q;break}e=1;break;case"erz":A="utilities";y="editors";j="level-0";h=(D>1)?"erz - "+b+" - "+q:"erz - top - "+q;e=1;break}}if(e!==1){if((t==="www.dmoz.org")&&(D===0)&&(d==="reinstate")){A="utilities";y="editors";h="editors - "+q;e=1}if(t==="report-abuse.dmoz.org"){A="utilities";y="report abuse";j="level-0";h=((D===0)&&(d==="faq"))?"dmoz report abuse system faq":"dmoz report abuse system";e=1}else{if(t==="rdf.dmoz.org"){A="utilities";y="rdf";j="level-0";if((D===0)&&(d===" - ")){h="rdf - main"}else{if((D===1)&&(d===" - ")){h="rdf - file index"}else{if((D===1)&&(d!==" - ")){h="rdf - "+d}}}e=1}}}if(e!==1){if((c==="cgi-bin")&&(t!=="search.dmoz.org")){A="utilities";j="level-0";switch(d){case"apply":case"forgot":y="editors";h=(d==="forgot")?"editors - password reminder form":(s_265.getQueryParam("submit").length===0)?"editors - application info":"editors - application";e=1;break;case"add":case"update":case"update2":case"update3":case"reinstate":y="editors";if(d==="add"){h="editors - submit a site instructions"}else{if(d==="update"){h="editors - update listing instructions"}else{if(d==="update2"){h="editors - update listing form"}else{if(d==="update3"){h="editors - update listing form received"}else{if(d==="reinstate"){h="editors - account reinstatement form received"}}}}}e=1;break;case"send":case"send2":y="editors";h=(d==="send")?"send editors feedback":"editors feedback received";e=1;break}}}if(e!==1){if((k==="desc.html")||(k==="faq.html")){w=(k==="desc.html")?"description":"faq";h=(D===1)?"branch category ":(D===2)?"branch subcategory ":"branch level-"+D+" ";h=h+w}}s_265.trackExternalLinks=false;s_265.mmxgo=true;s_265.prop1=A;s_265.prop2=y;s_265.prop17=j;s_265.pageName=h;s_265.t()}}())}var s_account="aoldmozodp,aolsvc";(function(){var b=document,a=b.createElement("script");a.type="text/javascript";a.src=(location.protocol==="https:"?"https://s":"http://o")+".aolcdn.com/omniunih.js";b.getElementsByTagName("head")[0].appendChild(a)}());
+</script>
+</div>
+<div id="doc" class="searchN">
+    <div id="hd" style="border-bottom:0;">
+    	<a id="logo" class="logoN" href="/" alt="dmoz logo" title="DMOZ"></a>
+        <div id="partnership">
+        	<img width="72" height="36" align="middle" alt="In Partnership with AOL" src="/img/public/aolpartner.png"/>
+        </div>
+    </div>
+    <div id="hd-bar">
+    	<div class="float-l">&nbsp;</div>
+        <div class="float-r">
+        	<a href="/">home</a> | <a href="/docs/en/unavailable.html">feedback</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="bd-cross">
+        <FORM class="center mb1em" >
+
+		
+		<h4>Search: <strong>home.online.no</strong></h4>
+		
+		
+
+        </form>
+        
+        	<h3>
+            	<strong>DMOZ Categories</strong> 
+	            <small>(81-5 of 100)</small>
+            </h3>
+            <ol class="dir" start=81>
+				
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/Familier_og_par/"><strong>World: Norsk: Samfunn: Folk: Personlige hjemmesider: Familier og par</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/Familier_og_par&all=no">11</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/"><strong>World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Kunst_og_kultur/Musikk/Stilarter/Danseband/Artister/"><strong>World: Norsk: Kunst og kultur: Musikk: Stilarter: Danseband: Artister</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Kunst_og_kultur/Musikk/Stilarter/Danseband/Artister&all=no">5</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/World/Norsk/Kunst_og_kultur/Musikk/Artister/"><strong>World: Norsk: Kunst og kultur: Musikk: Artister</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Kunst_og_kultur/Musikk/Artister&all=no">4</a>)
+	
+                </li>
+                
+                <li>
+		    
+		    
+                <a href="/Regional/Europe/Norway/Society_and_Culture/Genealogy/"><strong>Regional: Europe: Norway: Society and Culture: Genealogy</strong></a>
+   			(<a href="search?q=home.online.no&start=0&cat=/Top/Regional/Europe/Norway/Society_and_Culture/Genealogy&all=no">3</a>)
+	
+                </li>
+                
+            </ol>
+            
+            <p align="center"><a class="nav-label" href="search?q=home.online.no&start=80&type=more&all=no&cat=">more...</a></p>
+            
+        
+        <p class="mb1em"></p>
+        
+        	<h3 class="open-dir-sites">
+            	<strong>DMOZ Sites</strong> 
+                <small>(81-100 of 286)</small>
+            </h3>
+         
+			<ol class="site" start=81>
+				
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~geir-rii/index.cfm">Riis, Geir</a> - Personalia, bilder, humor og lenker.
+                    <div class="ref">-- http://home.online.no/~geir-rii/index.cfm&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Folk/Personlige_hjemmesider/R/">World: Norsk: Samfunn: Folk: Personlige hjemmesider: R</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/R&all=no">3</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~moboquis/">Boquist, Jan Morten</a> - Personalia, interesser og gjestebok.
+                    <div class="ref">-- http://home.online.no/~moboquis/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Folk/Personlige_hjemmesider/B/">World: Norsk: Samfunn: Folk: Personlige hjemmesider: B</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/B&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~o-bekkel/">Bekkelund, Odd Magne</a> - Informasjon om han og familien hans, interesser og venner, samt gjestebok.
+                    <div class="ref">-- http://home.online.no/~o-bekkel/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Folk/Personlige_hjemmesider/B/">World: Norsk: Samfunn: Folk: Personlige hjemmesider: B</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/B&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~a-bkva/">Kvaal/Utne</a> - Fotogalleri.
+                    <div class="ref">-- http://home.online.no/~a-bkva/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Folk/Personlige_hjemmesider/Familier_og_par/">World: Norsk: Samfunn: Folk: Personlige hjemmesider: Familier og par</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/Familier_og_par&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~styri/">Styri, H&#229;kon</a> - Arbeid, hobbier og interesser.
+                    <div class="ref">-- http://home.online.no/~styri/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Folk/Personlige_hjemmesider/S/">World: Norsk: Samfunn: Folk: Personlige hjemmesider: S</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/S&all=no">3</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~bjo-sag/">Sagbakken, Bj&#248;rn</a> - Tekster, grafikk og musikk.
+                    <div class="ref">-- http://home.online.no/~bjo-sag/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Folk/Personlige_hjemmesider/S/">World: Norsk: Samfunn: Folk: Personlige hjemmesider: S</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/S&all=no">3</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~gdal/">Dalheim, Geir</a> - Informasjon om Bod&#248;, sykdommene epilepsi, migrene og osteoporose og intresser. Gjestebok og lenkesamling.
+                    <div class="ref">-- http://home.online.no/~gdal/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Folk/Personlige_hjemmesider/D/">World: Norsk: Samfunn: Folk: Personlige hjemmesider: D</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Folk/Personlige_hjemmesider/D&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~ivajoha/wold/">Asta Wolds Fredslegat</a> - Med statutter, &#229;rsberetning, s&#248;knadsskjema og liste over tidligere utdelinger.
+                    <div class="ref">-- http://home.online.no/~ivajoha/wold/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Samfunnssp%C3%B8rsm%C3%A5l/Fred/">World: Norsk: Samfunn: Samfunnsspørsmål: Fred</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Samfunnssp%C3%B8rsm%C3%A5l/Fred&all=no"></a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~kjendal/">Krager&#248; genealogiside</a> - Inneholder forutenom egen slekt ogs&#229; kilder og kilderegister over Krager&#248;.
+                    <div class="ref">-- http://home.online.no/~kjendal/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/">World: Norsk: Samfunn: Slektsforskning</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~rstromso/">Inntr&#248;nderslekter</a> - S&#248;kbar database med over 17.000 navn fra Inntr&#248;ndelag.
+                    <div class="ref">-- http://home.online.no/~rstromso/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/">World: Norsk: Samfunn: Slektsforskning</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning&all=no">2</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~aaroenes/">Glimt fra Molde</a> - Lokalhistorie for Molde og Romsdal med s&#230;rlig vekt p&#229; personer og slekter.
+                    <div class="ref">-- http://home.online.no/~aaroenes/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/">World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~arneb2/">Berg, Arne</a> - Personalia, informasjon om slektsforskning, gjestebok og en samling lenker om ski og skihistorie.
+                    <div class="ref">-- http://home.online.no/~arneb2/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/">World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~asjonass/">Jonassen, Asle</a> - Stoff om slektsforskning og gamle postkort.
+                    <div class="ref">-- http://home.online.no/~asjonass/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/">World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~otjoerge/">J&#248;rgensen, Otto: OJs hjemmeside</a> - Informasjon om slektsforskning og slektsprogrammet Brothers Keeper.
+                    <div class="ref">-- http://home.online.no/~otjoerge/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/">World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~roeysum/">R&#248;ysum, Kjell</a> - Lokal- og slektshistorie fra Sogn, fotoalbum og gjestebok.
+                    <div class="ref">-- http://home.online.no/~roeysum/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/">World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~oekaas/">Slektsgransking fra Telemark og Buskerud</a> - Omfattende slektssamling lagd av &#216;ystein K&#229;sa. Personalia, egen slekt og bokeksempel.
+                    <div class="ref">-- http://home.online.no/~oekaas/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/">World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~elroenne/">Slektssidene til Dag Einar Winsnes</a> - Informasjon om Winsnesnavnet, personarkiv med navn fra Sings&#229;s, St&#248;ren og Fet.
+                    <div class="ref">-- http://home.online.no/~elroenne/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/">World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~er-joha/">Slekt fra Tr&#248;ndelag</a> - Slektforskning i Tr&#248;ndelag. En s&#248;kbar database p&#229; over 7000 navn.
+                    <div class="ref">-- http://home.online.no/~er-joha/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/">World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~olafa2/index.html">Slektside for Olaf Andersen Rognan i Saltdal</a> - Presentasjon av egne aner, slektsstevne og etterlysninger.
+                    <div class="ref">-- http://home.online.no/~olafa2/index.html&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider/">World: Norsk: Samfunn: Slektsforskning: Personlige hjemmesider</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Slektsforskning/Personlige_hjemmesider&all=no">11</a>)	
+			  </div>	
+                </li>
+                
+                <li class="">
+                
+
+                    <a href="http://home.online.no/~ris-pe/jesus/">En rose fra Jesus</a> - Personlig vitnesbyrd fra Jan Pedersen, b&#248;ker og andakter.
+                    <div class="ref">-- http://home.online.no/~ris-pe/jesus/&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="World/Norsk/Samfunn/Religion_og_livssyn/Kristendom/">World: Norsk: Samfunn: Religion og livssyn: Kristendom</a>
+	  		  (<a href="search?q=home.online.no&start=0&cat=/Top/World/Norsk/Samfunn/Religion_og_livssyn/Kristendom&all=no"></a>)	
+			  </div>	
+                </li>
+                
+            </ol>
+            
+            
+            <p align="center"><a class="nav-label" href="search?q=home.online.no&start=60&type=url&all=no&cat=">previous</a></p>
+            
+            
+	        <p align="center"><a class="nav-label" href="search?q=home.online.no&start=100&type=next&all=no&cat=">next</a></p>
+	        
+        
+		</div>
+		<div class="mb1em-form">
+			<form class="center mb1em" action="search" method="GET">
+				<input type="text" NAME="q" value="home.online.no">
+				<input type=submit value="New Search" class="btn">
+				<a href="search?type=advanced">Advanced Search</a>
+				<a href="/docs/en/searchguide.html">Help on Search</a>
+			</form>
+		</div>
+
+		<div class="dividerN">
+			<img style="height: 2px; float: left; width: 100%" src="http://o.aolcdn.com/os/dmoz/img/dividerN.gif" />
+		</div>
+
+        <div class="search-alt">
+			"<b>home.online.no</b>"&nbsp;search&nbsp;on:</span>
+				
+	            <a href="http://search.aol.com/aol/search?query=home.online.no">AOL</a> -
+<a href="http://www.ask.com/web?q=home.online.no">Ask</a> -
+<a href="https://www.bing.com/search?q=home.online.no">Bing</a> -
+<a href="https://duckduckgo.com/?q=home.online.no">DuckDuckGo</a> -
+<a href="https://gigablast.com/search?q=home.online.no">Gigablast</a> -
+<a href="https://www.google.com/search?q=home.online.no">Google</a> -
+<a href="https://www.ixquick.com/do/search/?q=home.online.no">ixquick</a> -
+<a href="https://search.yahoo.com/search?p=home.online.no">Yahoo</a> -
+<a href="https://www.yandex.com/yandsearch?text=home.online.no">Yandex</a> -
+<a href="http://new.yippy.com/search?query=home.online.no">Yippy</a>  				
+				
+
+
+        </div>
+
+		<div class="bottom-dividerN">
+			<img style="height: 2px; float: left; width: 100%" src="http://o.aolcdn.com/os/dmoz/img/dividerN.gif" />
+		</div>
+    </div>
+    <div id="ft">
+    	
+        
+            <span class="float-l">Copyright &copy; 1998-2015 AOL Inc.</span>
+        
+
+        <span class="float-r"><a href="/docs/en/termsofuse.html">Terms of Use</a></span>
+    </div>
+    <!--div id="ft-bar">
+    	Search database last updated on: Wed Jun 25 17:20:02 EDT 2008
+    </div-->
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,15 @@
+http://www.dmoz.org/search?q=home.online.no&start=0
+http://www.dmoz.org/search?q=home.online.no&start=20
+http://www.dmoz.org/search?q=home.online.no&start=40
+http://www.dmoz.org/search?q=home.online.no&start=60
+http://www.dmoz.org/search?q=home.online.no&start=80
+http://www.dmoz.org/search?q=home.online.no&start=100
+http://www.dmoz.org/search?q=home.online.no&start=120
+http://www.dmoz.org/search?q=home.online.no&start=140
+http://www.dmoz.org/search?q=home.online.no&start=160
+http://www.dmoz.org/search?q=home.online.no&start=180
+http://www.dmoz.org/search?q=home.online.no&start=200
+http://www.dmoz.org/search?q=home.online.no&start=220
+http://www.dmoz.org/search?q=home.online.no&start=240
+http://www.dmoz.org/search?q=home.online.no&start=280
+http://www.dmoz.org/search?q=home.online.no&start=300
